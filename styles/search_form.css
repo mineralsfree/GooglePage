@@ -1,0 +1,128 @@
+.search_form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    margin: auto;
+}
+
+.search_form-button_container {
+    height: 70px;
+    display: flex;
+    padding-top: 18px;
+    margin-left: -13px;
+}
+
+.search_form-button {
+    background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 6px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.search_form-button:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+.search_form-search_input {
+    margin-top: 4px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    color: rgba(0, 0, 0, .87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    height: 34px;
+    font-size: 16px;
+}
+
+.search_form-style_wrapper {
+    padding: 0 8px 0 14px;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 27px auto 0 auto;
+    width: 560px;
+}
+.search_form-style_wrapper:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+svg {
+    display: block;
+    height: 100%;
+    color: #9AA0A6;
+    width: 100%;
+}
+
+.search_form-search_icon {
+    padding-right: 13px;
+    margin: 10px 0 9px 0;
+    line-height: 24px;
+    display: inline-block;
+    fill: currentColor;
+    color: #9AA0A6;
+    height: 25px;
+    width: 25px;
+}
+
+.search_form-link {
+    color: rgb(26, 13, 171);
+    padding: 0 3px;
+    text-decoration: none;
+}
+
+.search_form-alt_langs {
+    color: rgb(34, 34, 34);
+    font-size: small;
+    line-height: 28px;
+    margin-top: 1px;
+}
+.search_form-key_icon{
+    background: url("../img/tia.png") no-repeat center;
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+.search_form-micro_icon{
+    background: url("../img/tia.png") no-repeat center;
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+.search_form-icon_container{
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+}

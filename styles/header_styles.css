@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, HelveticaNeue-Light, HelveticaNeue, Helvetica, serif;
+    margin: 0;
+
+    /*font-family: arial,sans-serif;*/
+}
+
+.header_list {
+    padding: 0 30px;
+    list-style-type: none;
+    display: flex;
+    white-space: nowrap;
+    align-content: baseline;
+    justify-content: flex-end;
+
+}
+.header_list-item{
+    height: 30px;
+}
+.header_list-link {
+    margin-left: 15px;
+    font-size: 13px;
+    line-height: 30px;
+    outline: none;
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+}
+
+.header_list-apps {
+    background-position: -132px -38px;
+    opacity: .55;
+    background-image: url("../img/AllinOne.png");
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    background-size: 528px 68px;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+}
+.header_list-image{
+
+}
+.header_list-image_container{
+    margin-top: -1px;
+   margin-left: 14px;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 50%;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    z-index: 0;
+}
+.header_list-link:hover {
+    opacity: .85;
+    text-decoration: underline;
+}
+.header_list-image{
+background-image: url(https://lh3.googleusercontent.com/ogw/ADGmqu8EcQbDO0O_DZSKH8m7tQBXNZCL4bY5ntLFkygp=s32-c-mo)
+}
+.header_list-image::before{
+    content: url(https://lh3.googleusercontent.com/ogw/ADGmqu8EcQbDO0O_DZSKH8m7tQBXNZCL4bY5ntLFkygp=s32-c-mo
+    )
+}

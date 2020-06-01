@@ -1,0 +1,42 @@
+.footer{
+    background: rgb(242, 242, 242);
+    color: rgb(95, 99, 104);;
+    bottom: 0;
+    position: fixed;
+    z-index: 104;
+    width: 100%;
+    font-size: 14px;
+
+}
+.footer_list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+.footer-lists_container{
+    margin-left: 3px;
+
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.footer-country_container{
+    margin-left: 3px;
+    width: 100%;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    border-top: 1px solid rgb(228, 228, 228);
+
+}
+.footer-country{
+    color: rgba(0, 0, 0, 0.54);
+
+    padding-left: 27px;
+    line-height:40px;
+    font-size: 15px;
+}
+.footer_list-item{
+    padding-left: 27px;
+    line-height: 40px;
+}
