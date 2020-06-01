@@ -40,3 +40,8 @@
     padding-left: 27px;
     line-height: 40px;
 }
+.footer_list-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
