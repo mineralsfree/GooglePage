@@ -6,7 +6,7 @@ body {
 }
 
 .header_list {
-    padding: 0 30px;
+    padding: 0 29px;
     list-style-type: none;
     display: flex;
     white-space: nowrap;
